@@ -1,7 +1,6 @@
 ---
-title: Treehouse
-subtitle: Website Design
-layout: default
+title: Diaper Cover
+subtitle: Out of sight, out of mind
 modal-id: 4
 date: 2014-07-15
 img: treehouse.png

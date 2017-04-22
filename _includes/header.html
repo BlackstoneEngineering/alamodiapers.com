@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+                <img class="navbar-brand page-scroll" href="#page-top" src="{{ site.baseurl }}/img/{{site.data.header.logo}}"></img>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,16 +19,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#cloth-info">Using Cloth Diapers</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#services">Service Plans</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="#portfolio">Products</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -44,9 +41,9 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-lead-in">{{site.data.header.title}}</div>
+                <div class="intro-heading">{{site.data.header.subtitle}}</div>
+                <a href="#cloth-info" class="page-scroll btn btn-xl">{{site.data.header.buttontext}}</a>
             </div>
         </div>
     </header>
